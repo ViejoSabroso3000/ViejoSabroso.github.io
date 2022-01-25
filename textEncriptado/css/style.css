@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+.div__principal{
+    height: 650px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: #ccc;
+    /* border: 3px solid red; */
+}
+
+.div__primero{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    border-radius: 5%;
+    top: 225px;
+    box-shadow: 5px 5px 5px #777;
+    background-color: #fff;
+    
+}
+
+.div__segundo{
+    width: 300px;
+    height: 200px;
+    left: 54%;
+    top: 225px;
+    position: absolute;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #777;
+    background-color: #fff;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p__div-primero, .p__div-segundo{
+
+    text-align: center;
+    text
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.inp__1, .inp__2{
+    height: 90px;
+    margin-left: 65px;
+    resize: none;
+   position: absolute;
+   right: 30px;
+}
+
+.button__1, .button__2, .copy__1{
+    width: 100px;
+    position: absolute;
+    z-index: 10; 
+    bottom: 20px;
+    position: absolute;
+    background-color: #ccc;
+     border: none; 
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px #888; 
+}
+
+.button__1{
+    left: 30px;
+}
+
+.button__2{
+    left: 175px;
+}
+
+.button__1:hover, .button__2:hover{
+    background-color: bisque;
+}
+
+.copy__1{
+    left: 100px;
+}
+
+.copy__1:hover{
+    background-color: bisque;
+}
